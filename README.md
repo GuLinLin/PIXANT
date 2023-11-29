@@ -205,7 +205,7 @@ List of 5
  - attr(*, "class")= chr "PIXANT"
 ```
 
-## An R script to correct for covariates <br>
+## A function to correct for covariates <br>
 **Note:** Please attention that NAs are not allowed in the **cov.txt**,  and all individuals should be in the same order with phenotype file.
 > `cov.txt`
 
@@ -226,7 +226,7 @@ List of 5
 > AdjustPhen <- PhenAdj(phen, cov)
 ```
 
-## An R script to estimate the SC (Sample Score) for each phenotype of each individual <br>
+## A function to estimate the SC (Sample Score) for each phenotype of each individual <br>
 ```R
 > library("PIXANT")
 > phen <- data.table("phenotype.txt", header=T)
