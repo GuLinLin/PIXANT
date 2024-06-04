@@ -1,4 +1,4 @@
-# PIXANT [![](https://img.shields.io/badge/Issues-%2B-brightgreen.svg)](https://github.com/GuLinLin/PIXANT/issues) [![](https://img.shields.io/badge/Release-v1.1.0-important.svg)](https://github.com/GuLinLin/PIXANT/archive/refs/heads/master.zip) [![](https://img.shields.io/badge/license-GPL3.0-blue.svg)](https://github.com/GuLinLin/PIXANT/blob/master/LICENSE)<br>
+# PIXANT [![](https://img.shields.io/badge/Issues-%2B-brightgreen.svg)](https://github.com/GuLinLin/PIXANT/issues) [![](https://img.shields.io/badge/Release-v0.1.0-important.svg)](https://github.com/GuLinLin/PIXANT/archive/refs/heads/master.zip) [![](https://img.shields.io/badge/license-GPL3.0-blue.svg)](https://github.com/GuLinLin/PIXANT/blob/master/LICENSE)<br>
 
 ## *multi-[P](https://github.com/GuLinLin/PIXANT/)henotype [I](https://github.com/GuLinLin/PIXANT)mputation based on mi[X](https://github.com/GuLinLin/PIXANT/)ed f[A](https://github.com/GuLinLin/PIXANT/)st ra[N](https://github.com/GuLinLin/PIXANT/)dom fores[T](https://github.com/GuLinLin/PIXANT/)*<br>
 
@@ -25,7 +25,7 @@ method imputation can uncover new true positive results. <br>
 ![image](https://github.com/GuLinLin/PIXANT/blob/master/flowchart.bmp)
 
 ## Version and download <br>
-* [Version 0.1.0](https://github.com/GuLinLin/PIXANT/blob/main/PIXANT_0.1.0.tar.gz) -First version released on August, 21th, 2023<br>
+* [Version 0.1.0](https://github.com/GuLinLin/PIXANT/blob/master/PIXANT_0.1.0.tar.gz) -First version released on August, 21th, 2023<br>
 
 ## The function details of PIXANT <br>
 ```
