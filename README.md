@@ -106,7 +106,7 @@ Table of Contents
 │
 ├ imputeUnivariate                  # Fills missing values of a vector, matrix or data frame by sampling with replacement from the non-missing values. For data frames, this sampling is done within column.
 │ ├ Usage
-│ │ └                               # imputeUnivariate(xmis, v = NULL, seed = NULL)
+│ │ └                               # imputeUnivariate(x, initialImputeType, v = NULL, seed = NULL)
 │ ├ Arguments
 │ │ ├ x                             # A data frame with missing values.
 │ │ ├ initialImputeType             # Initial imputation method for missing values in a data frame. Currently support: "random", "average", "median".
@@ -124,7 +124,7 @@ Table of Contents
 │ 
 ├ SC                                # Estimating the SC (Sample Score) for each phenotype of each individual.
 │ ├ Usage
-│ │ └                               # sampleScore(Phen, use="pairwise",method="pearson",adjust="fdr",alpha=.05)
+│ │ └                               # SC(Phen, aimPhenName, use="pairwise",method="pearson",adjust="fdr",alpha=.05)
 │ ├ Arguments
 │ │ ├ Phen                          # Phenotype file. The missing values should be denoted by NA.
 │ │ ├ aimPhenName                   # The column name for the imputed phenotype.
