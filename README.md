@@ -35,7 +35,7 @@ Table of Contents
 │ ├ Usage
 │ │ ├                               # PIXANT(data, aimPhenName, maxIterations = 20, maxIterations0 = 20, num.trees = 100,
 │ │ ├                                        initialLinearEffects = 0, errorTolerance = 0.001, aimPhenMissingSize = 500,
-│ │ ├                                        initialImputeType = 'random', refPhenThreshold = 0.3, maxNum.refPhen = 10,
+│ │ ├                                        initialImputeType = 'random', refPhenThreshold = 0.3, minNum.refPhen = 10,
 │ │ └                                        SC.Threshold = 0.6, seed = 123, decreasing = TRUE, verbose = TRUE, xtrue = NA)
 │ ├ Arguments
 │ │ ├ data                          # A data frame with missing values.
@@ -48,7 +48,7 @@ Table of Contents
 │ │ ├ aimPhenMissingSize            # The missing values size of settings in imputed phenotype (default = 500).
 │ │ ├ initialImputeType             # Initial imputation method for missing values in a data frame. Currently support: "random", "average", "median".
 │ │ ├ refPhenThreshold              # Relevance threshold for the selection of reference phenotypes, the range from 0 to 1 (default = 0.3).
-│ │ ├ maxNum.refPhen                # Maximum number of reference phenotypes to be selected (default = 10).
+│ │ ├ minNum.refPhen                # Minimum number of reference phenotypes to be selected (default = 10).
 │ │ ├ SC.Threshold                  # Individual's imputation quality threshold (default = 0.6).
 │ │ ├ seed                          # Random seed. Default is 123, which generates the seed from R. Set to 0 to ignore the R seed.
 │ │ ├ decreasing                    # (boolean) If TRUE the columns are sorted with decreasing amount of missing values.
@@ -179,7 +179,7 @@ and the predicted value could be directly interpreted as the probability of bein
 > system.time(PIXANT.imp <- PIXANT(demoData, aimPhenName = 'Phenotype7', maxIterations = 20, maxIterations0 = 20,
 >                                  num.trees = 100, initialLinearEffects = 0, errorTolerance = 0.001,
 >                                  aimPhenMissingSize = 500, initialImputeType = 'random', refPhenThreshold = 0.3,
->                                  maxNum.refPhen = 7, SC.Threshold = 0.6, seed = 123))
+>                                  minNum.refPhen = 7, SC.Threshold = 0.6, seed = 123))
 ```
 
 ## OUTPUT
