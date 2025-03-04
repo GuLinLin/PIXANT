@@ -250,3 +250,4 @@ If you have any bug reports or questions, please feed back :point_right:[here](h
  
 :e-mail: **Lin-Lin Gu:** linlin-gu@outlook.com <br>
 ## Citation <br>
+Gu LL, Wu HS, Liu TY, Zhang YJ, He JC, Liu XL, Wang ZY, Chen GB, Jiang D, Fang M. Rapid and accurate multi-phenotype imputation for millions of individuals. Nat Commun. 2025 Jan 4;16(1):387. doi: 10.1038/s41467-024-55496-0. PMID: 39755672; PMCID: PMC11700122.
